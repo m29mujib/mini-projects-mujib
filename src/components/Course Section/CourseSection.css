@@ -1,0 +1,10 @@
+.lingkup {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.judul {
+    padding-top: 100px;
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+.images {
+    width: 85%;
+    height: 400px;
+    margin: auto;
+    margin-top: -200px;
+    position: relative;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+}
+
+.main {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+}
+
+.main h2 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    margin-top: -7px;
+}
+
+.box1 {
+    width: 40px;
+    height: 5px;
+    margin-top: 40px;
+    background-color: #00B2FF;
+}
+
+.box2 {
+    width: 20px;
+    height: 5px;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #005377;
+}
+
+.box3 {
+    width: 20px;
+    height: 5px;
+    margin-top: 40px;
+    background-color: #336e86;
+    margin-right: 15px;
+}
+
+.bottom-foot {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #00B2FF;
+    padding: 10px;
+    color: #fff;
+}
+
+.bottom-foot .kiri p {
+    font-size: 15px;
+}
+
+.deskrip {
+    margin-right: 15px;
+}
+
+.bottom-foot .kanan {
+    display: flex;
+    cursor: pointer;
+}
