@@ -1,0 +1,26 @@
+.form-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+form {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 100px 50px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.btn-login {
+    padding: 10px 40px;
+    border: none;
+    background-color: rgb(34, 157, 238);
+    color: #fff;
+    border-radius: 5px;
+}
