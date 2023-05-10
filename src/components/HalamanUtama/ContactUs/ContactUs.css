@@ -1,0 +1,57 @@
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 5%;
+    margin: 50px 0;
+}
+
+
+/* TO DARK MODE / LIGHT MODE */
+
+.faMoon .contact {
+    background-color: #fff;
+}
+
+.faMoon .contact-ket h1 {
+    color: #333;
+}
+
+.faMoon .contact-ket p {
+    color: #333;
+}
+
+
+/* END */
+
+.contact-ket h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    color: #4A1D1F;
+    font-family: 'poppins';
+}
+
+.contact-ket p {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'poppins';
+}
+
+.area-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 15px 30px;
+    background-color: #4A1D1F;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'poppins';
+    border-radius: 5px;
+    text-decoration: none;
+}

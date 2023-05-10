@@ -1,0 +1,69 @@
+.subs {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 100px 5%;
+    /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #FDF9ED); */
+    /* margin-top: 50px; */
+}
+
+
+/* TO DARK MODE / LIGHT MODE */
+
+.faMoon .subs {
+    background-color: #fff;
+}
+
+.faMoon .subscrip {
+    color: #333;
+    border-right: 2px solid #333;
+}
+
+.faMoon .deskrip {
+    color: #333;
+}
+
+.left {
+    flex: 1;
+    flex-basis: 50%;
+}
+
+.right {
+    flex: 1;
+    flex-basis: 50%;
+}
+
+.subscrip {
+    font-size: 45px;
+    color: #4A1D1F;
+    font-family: 'poppins';
+    border-right: 2px solid #4A1D1F;
+}
+
+.deskrip {
+    padding-left: 50px;
+    letter-spacing: 1px;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .subs {
+        margin-top: 150px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 50px 5%;
+    }
+    .subscrip {
+        font-size: 35px;
+    }
+    .faMoon .subscrip {
+        color: #333;
+        /* border-right: none; */
+    }
+    .deskrip {
+        font-size: 14px;
+        margin-top: 30px;
+        padding-left: 0;
+    }
+}

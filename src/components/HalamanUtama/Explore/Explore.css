@@ -1,0 +1,99 @@
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 80px 5%;
+}
+
+
+/* TO DARK MODE / LIGHT MODE */
+
+.faMoon .explore {
+    background-color: #fff;
+}
+
+.faMoon .explore-left h1 {
+    color: #333;
+}
+
+.faMoon .explore-left p {
+    color: #333;
+}
+
+.faMoon .read-more {
+    color: #333;
+}
+
+
+/* END */
+
+.explore-left {
+    flex: 1;
+    flex-basis: 50%;
+    padding: 0px 50px 0px 0px;
+}
+
+.explore-left h1 {
+    font-size: 40px;
+    color: #4A1D1F;
+    font-family: 'poppins';
+}
+
+.explore-left p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'poppins';
+}
+
+.read-more {
+    display: block;
+    color: #4A1D1F;
+    font-weight: 600;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'poppins';
+    letter-spacing: 1px;
+}
+
+.explore-right {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    flex-basis: 50%;
+    padding: 0px 0px 0px 50px;
+}
+
+.explore-right .images {
+    width: 450px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .explore {
+        flex-wrap: wrap-reverse;
+        padding: 50px 5% 0px 5%;
+    }
+    .explore-right {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .explore-right .images {
+        width: 100%;
+        /* margin-right: 50px; */
+        /* margin-top: 30px; */
+        border-radius: 30px;
+    }
+    .explore-left h1 {
+        font-size: 30px;
+    }
+    .explore-left {
+        margin-top: 30px;
+    }
+}
