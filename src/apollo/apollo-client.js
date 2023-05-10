@@ -1,10 +1,10 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: 'https://settled-mongoose-63.hasura.app/v1/graphql',
+    uri: 'https://included-guinea-34.hasura.app/v1/graphql',
     cache: new InMemoryCache(),
     headers: {
-        'x-hasura-admin-secret': 'vgfX1cxXncicMeVIhTVcKS5TqcYkc2d2766uvxYOSCCpw1oD5IdoKhuuhFLqWqXS'
+        'x-hasura-admin-secret': 'sz7amcZMQ3qHK01uNwhaEAlEX1KmkJGOZZ92XBdGEq4gytstxx8WLV1VB3HUgtJC'
     }
 })
 export default client
