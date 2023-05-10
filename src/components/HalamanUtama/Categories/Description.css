@@ -1,0 +1,15 @@
+ .card-description {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 100%;
+     padding: 0px 5%;
+     margin: 80px 0;
+ }
+ 
+ @media screen and (max-width: 600px) {
+     .card-description {
+         padding: 0px 0px;
+         flex-wrap: wrap;
+     }
+ }

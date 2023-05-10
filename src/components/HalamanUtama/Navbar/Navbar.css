@@ -1,0 +1,98 @@
+.navbar {
+    width: 100%;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+/* TO DARK MODE / LIGHT MODE */
+
+.faSun {
+    color: #333;
+}
+
+.faSun .logo h2 {
+    color: #4A1D1F;
+}
+
+.faSun .search .button {
+    color: #333;
+}
+
+.faMoon .logo h2 {
+    color: #fff;
+}
+
+.faMoon .search .button {
+    color: #fff;
+}
+
+.icon-dark-light {
+    cursor: pointer;
+    color: orange;
+}
+
+.logo h2 {
+    color: #4A1D1F;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search .button {
+    color: #4A1D1F;
+    padding: 0px 25px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+}
+
+.menu {
+    margin-right: 10px;
+}
+
+.faBars {
+    color: orange;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+    }
+    .search .button {
+        display: none;
+    }
+    .faMoon .logo h2 {
+        font-size: 15px;
+    }
+    .faSun .logo h2 {
+        font-size: 15px;
+    }
+}
