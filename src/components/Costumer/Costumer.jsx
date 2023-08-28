@@ -11,6 +11,10 @@ query GetTbPesanan {
   }
 }
    `
+<<<<<<< HEAD
+=======
+   
+>>>>>>> main
 const Costumer = () => {
    const navigate = useNavigate()
    const { data } = useQuery(COSTUMER)
