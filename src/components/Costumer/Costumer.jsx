@@ -10,11 +10,8 @@ query GetTbPesanan {
 		no_Hp
   }
 }
-   `
-<<<<<<< HEAD
-=======
-   
->>>>>>> main
+   ` 
+
 const Costumer = () => {
    const navigate = useNavigate()
    const { data } = useQuery(COSTUMER)
