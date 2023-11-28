@@ -23,7 +23,7 @@ const Navbar = () => {
    return(
          <div className={`${theme} navbar`}>
             <div className="logo">
-               <h2>Nuffah's Cake</h2>
+               <h2>IBU BEDAH</h2>
             </div>
    
             <div className="profile">
